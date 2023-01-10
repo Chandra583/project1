@@ -33,6 +33,8 @@ function Login() {
          .then(()=>{
             navigate('/',{replace:true})
          })
+
+    // console.log(response)
   };
 
   return (
